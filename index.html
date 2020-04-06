@@ -6,7 +6,10 @@
 		<script type="text/javascript">
 			var url = window.location.href;
 			if (url.indexOf("https") < 0) {
-				url = url.replace("http:", "https:");
+				url = url.replace("http://wenyumook.github.io", "https://www.mmmook.com");
+				window.location.replace(url);
+			}else {
+				url = url.replace("https://wenyumook.github.io", "https://www.mmmook.com");
 				window.location.replace(url);
 			}
 		</script>
